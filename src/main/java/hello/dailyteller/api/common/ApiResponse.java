@@ -1,4 +1,4 @@
-package api.common;
+package hello.dailyteller.api.common;
 
 import lombok.Builder;
 import lombok.Data;
