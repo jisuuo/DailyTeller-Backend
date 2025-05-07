@@ -1,4 +1,4 @@
-package api.common;
+package hello.dailyteller.api.common;
 
 import lombok.Builder;
 import lombok.Data;
@@ -16,7 +16,7 @@ public class ApiResponse<T> {
         return ApiResponse.<T>builder().success(true).message("success").data(data).build();
     }
 
-    public static <T> ApiResponse<T> success(T data, String message) {
+    public static <T> ApiResponse<T> success(String message, T data) {
         return ApiResponse.<T>builder().success(true).message(message).data(data).build();
     }
 
