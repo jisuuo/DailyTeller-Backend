@@ -1,6 +1,6 @@
 package hello.dailyteller.global.error.exception;
 
-import hello.dailyteller.global.error.ErrorCode;
+import com.example.honbabspring.global.error.ErrorCode;
 import lombok.Getter;
 
 @Getter
