@@ -1,6 +1,6 @@
 package hello.dailyteller.global.error;
 
-import com.example.honbabspring.global.error.exception.BusinessException;
+import hello.dailyteller.global.error.exception.BusinessException;
 import io.swagger.v3.oas.annotations.Hidden;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
