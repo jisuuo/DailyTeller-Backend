@@ -35,3 +35,6 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Google Cloud TTS key
+src/main/resources/google/tts-key.json

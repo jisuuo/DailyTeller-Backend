@@ -10,3 +10,7 @@ external:
     base-url: https://article-extractor2.p.rapidapi.com
     key: 2f5f661de0mshf240544b7950535p142c34jsn2606d484365b
     host: article-extractor2.p.rapidapi.com
+
+tts:
+  google:
+    credentials-path: src/main/resources/google/tts-key.json
